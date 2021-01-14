@@ -10,12 +10,36 @@
   clear: both;
 }
 
-nav {
-  background-color: red;
-  height: 80px;
-  width: 100%;
+body {
+  font-family: roboto;
 }
 
-#right {
+nav {
+  background-color: red;
+  height: 88px;
+  width: 1280px;
+  margin: auto;
+}
 
+#nav-left {
+  width: 213.466px;
+  background-color: green;
+  float: left;
+  height: 88px;
+  border: 1px solid black;
+}
+
+#nav-right {
+  width: 672px;
+  background-color: green;
+  float: right;
+  height: 88px;
+  border: 1px solid black;
+}
+
+#logo {
+  width: 60px;
+  height: 88px;
+  border: 1px solid black;
+  float: left;
 }
