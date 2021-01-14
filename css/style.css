@@ -31,6 +31,10 @@ a {
 .cursor-pointer {
   cursor: pointer;
 }
+
+/* .inline {
+  display: inline-block;
+} */
 /* End Class utility */
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
@@ -104,11 +108,16 @@ li.tent {
 
 li {
   list-style: none;
+  color: #8c8d96;
+}
+
+li.tent, li.inline {
+  list-style: none;
   display: inline-block;
   line-height: 48px;
   padding: 0 19.2px;
-  color: #8c8d96;
 }
+
 
 .box-content {
   width: 1050px;
@@ -127,4 +136,23 @@ li {
   border: 1px solid black;
   height: 100%;
   padding: 0 19.2px;
+}
+
+.heading {
+  border: 1px solid black;
+  width: 100%;
+  line-height: 24px;
+}
+
+.sub-content .heading .icon {
+  width: 24px;
+  height: 24px;
+  border: 1px solid black;
+}
+
+.sub-content .heading .title {
+  font-size: 11px;
+  padding-left: 10px;
+  color: #ced5db;
+  font-weight: 500;
 }
