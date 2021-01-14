@@ -18,6 +18,10 @@
 .fr {
   float: right;
 }
+
+.display {
+  display: none;
+}
 /* End Class utility */
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
