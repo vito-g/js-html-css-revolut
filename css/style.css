@@ -1,3 +1,4 @@
+/* Class utility */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,36 +11,78 @@
   clear: both;
 }
 
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+/* End Class utility */
 body {
-  font-family: roboto;
+  font-family: 'Roboto', 'Arial', sans-serif;
 }
 
 nav {
-  background-color: red;
-  height: 88px;
+  /* background-color: red; */
+  /* height: 128px; */
   width: 1280px;
   margin: auto;
-}
-
-#nav-left {
-  width: 213.466px;
-  background-color: green;
-  float: left;
-  height: 88px;
-  border: 1px solid black;
-}
-
-#nav-right {
-  width: 672px;
-  background-color: green;
-  float: right;
-  height: 88px;
-  border: 1px solid black;
+  line-height: 48px;
+  padding: 40px 0;
 }
 
 #logo {
-  width: 60px;
-  height: 88px;
+  width: 40px;
+  height: 48px;
   border: 1px solid black;
-  float: left;
+}
+
+#nav-left {
+  /* width: 213.466px; */
+  /* background-color: green; */
+  height: 48px;
+  /* border: 1px solid black; */
+}
+
+#nav-left ul li:first-child {
+  color: black;
+}
+
+
+#nav-right {
+  /* background-color: green; */
+  height: 48px;
+  /* border: 1px solid black; */
+}
+
+#buttons {
+  padding: 0 0 0 20px;
+}
+
+#buttons button {
+  padding: 12px 22px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+#buttons button:first-child {
+  margin: 0 10px;
+  /* background-color: #f0f0f0; */
+}
+
+#buttons button:last-child {
+  background-color: #191c1f;
+  color: #ffffff;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  line-height: 48px;
+  padding: 0 19.2px;
+  color: #8c8d96;
 }
