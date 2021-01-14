@@ -26,12 +26,18 @@
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
 }
+.container {
+  width: 1280px;
+  border: 1px solid black;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+}
 
 nav {
   /* background-color: red; */
   /* height: 128px; */
   width: 1280px;
-  margin: auto;
   line-height: 48px;
   padding: 40px 0;
 }
@@ -83,10 +89,25 @@ nav {
   color: #ffffff;
 }
 
+li.tent {
+  /* border: 1px solid black; */
+}
+
 li {
   list-style: none;
   display: inline-block;
   line-height: 48px;
   padding: 0 19.2px;
   color: #8c8d96;
+}
+
+.box-content {
+  width: 1050px;
+  height: 316px;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 88px;
+  right: 0;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+  border-radius: 8px;
 }
