@@ -149,12 +149,26 @@ li.tent, li.inline {
   width: 160px;
   /* height: 316px; */
   position: absolute;
-  top: 88px;
-  right: 448px;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
   border-radius: 8px;
   padding: 12px 19.2px 12px 19.2px;
   background-color: #ffffff;
+}
+
+#due.box-content {
+  top: 88px;
+  right: 448px;
+}
+
+#tre.box-content {
+  top: 88px;
+  right: 300px;
+}
+
+#quattro.box-content {
+  width: 170px;
+  top: 88px;
+  right: 169px;
 }
 
 
