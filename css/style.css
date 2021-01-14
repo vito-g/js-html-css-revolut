@@ -132,7 +132,7 @@ li.tent, li.inline {
 }
 
 
-.box-content {
+#uno.box-content {
   width: 1050px;
   height: 316px;
   /* border: 1px solid black; */
@@ -142,6 +142,19 @@ li.tent, li.inline {
   box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
   border-radius: 8px;
   padding: 24px 12px 12px 8px;
+  background-color: #ffffff;
+}
+
+.box-content {
+  width: 160px;
+  /* height: 316px; */
+  position: absolute;
+  top: 88px;
+  right: 448px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+  border-radius: 8px;
+  padding: 12px 19.2px 12px 19.2px;
+  background-color: #ffffff;
 }
 
 
