@@ -22,6 +22,15 @@
 .display {
   display: none;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
 /* End Class utility */
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
@@ -110,10 +119,12 @@ li {
   right: 0;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
   border-radius: 8px;
+  padding: 24px 12px 12px 8px;
 }
 
 .sub-content {
   width: calc(100% / 4);
   border: 1px solid black;
   height: 100%;
+  padding: 0 19.2px;
 }
