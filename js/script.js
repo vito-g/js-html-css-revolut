@@ -15,6 +15,9 @@
 
 $(document).ready(function() {
 
-
-
+    $('.drop-down').click(
+      function() {
+        $(this).find('.drop-down-menu').toggle();
+      });
+      
 });
