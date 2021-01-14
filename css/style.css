@@ -111,3 +111,9 @@ li {
   box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
   border-radius: 8px;
 }
+
+.sub-content {
+  width: calc(100% / 4);
+  border: 1px solid black;
+  height: 100%;
+}
