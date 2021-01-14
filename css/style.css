@@ -3,3 +3,19 @@
   margin: 0;
   padding: 0;
 }
+
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  background-color: red;
+  height: 80px;
+  width: 100%;
+}
+
+#right {
+
+}
